@@ -19,7 +19,7 @@
                        @method('delete')
                        @csrf
 
-                       <button type="submit" class="btn btn-danger ml-4" onclick="return confirm('Are you sure you want to delete this note?')">Delete Note</button>
+                       <button type="submit" class="btn btn-danger ml-4" onclick="return confirm('Are you sure you want to move this note to trash?')">Move To Trash</button>
                     
                     </form>
                 </p>
