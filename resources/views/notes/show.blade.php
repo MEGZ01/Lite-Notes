@@ -20,7 +20,7 @@
                 <h2 class="font-bold text-4xl">
                    {{ $note->title }}
                 </h2>
-                <p class="mt-6 whitespace-pre-wrab">{{ $note->text }}</p>
+                <p class="mt-6"> {{ $note->text }}</p>
             </div>
         </div>
     </div>
